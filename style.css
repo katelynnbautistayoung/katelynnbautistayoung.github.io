@@ -388,3 +388,7 @@ h5 {
 .in-view {
 	animation: fade 1s 1s both;
 }
+
+.not-in-view {
+	opacity: 0;
+}
