@@ -385,6 +385,6 @@ h5 {
 }
 }
 
-card.in-view {
+.in-view {
 	animation: fade 1s 1s both;
 }
