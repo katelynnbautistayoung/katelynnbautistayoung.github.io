@@ -63,7 +63,6 @@
 }
 
 
-
 body {
   font-family: Bitter, Bitter-Italic;
   margin: 2em;
@@ -371,4 +370,21 @@ h5 {
     display: block;
     text-align: left;
   }
+}
+
+
+
+
+
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+}
+}
+
+card.in-view {
+	animation: fade 1s 1s both;
 }
