@@ -10,8 +10,8 @@ const observer = new IntersectionObserver((entries) => {
 	},
 )
 
-const tags = document.querySelectorAll("card")
+const tags = document.querySelectorAll("figure, div")
 
 tags.forEach((tag) => {
-	observer.observe("card")
+	observer.observe("figure, div")
 })
