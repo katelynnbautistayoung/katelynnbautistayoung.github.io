@@ -1,59 +1,44 @@
 /* CSS files add styling rules to your content */
 
 @font-face {
-  font-family: Bitter; 
-  src: url("https://cdn.glitch.com/dac22bc7-c89a-41a1-9663-47afdbf17116%2FBitter-VariableFont_wght.ttf?v=1611097695022");
-       url("https://cdn.glitch.com/dac22bc7-c89a-41a1-9663-47afdbf17116%2FBitter-VariableFont_wght.ttf?v=1611097695022") format(ttf),
+  font-family: Libertinus; 
+  src: url("LibertinusSerif-Regular.ttf");
 }
 
 @font-face {
-  font-family: Bitter-Italic; 
-  src: url("https://cdn.glitch.com/dac22bc7-c89a-41a1-9663-47afdbf17116%2FBitter-Italic-VariableFont_wght.ttf?v=1611099027621");
-       url("https://cdn.glitch.com/dac22bc7-c89a-41a1-9663-47afdbf17116%2FBitter-Italic-VariableFont_wght.ttf?v=1611099027621") format(ttf),
+  font-family: Libertinus-Italic; 
+  src: url("LibertinusSerif-Italic.ttf");
 }
 
 @font-face {
-  font-family: Bitter-Light; 
-  src: url("https://cdn.glitch.com/dac22bc7-c89a-41a1-9663-47afdbf17116%2FBitter-Light.ttf?v=1611113093630");
-       url("https://cdn.glitch.com/dac22bc7-c89a-41a1-9663-47afdbf17116%2FBitter-Light.ttf?v=1611113093630") format(ttf),
+  font-family: Libertinus-Bold; 
+  src: url("LibertinusSerif-Bold.ttf");
+}
+
+@font-face {
+  font-family: Libertinus-Bold-Italic; 
+  src: url("LibertinusSerif-BoldItalic.ttf");
 }
 
 @font-face {
   font-family: Open-Sans; 
-  src: url("https://cdn.glitch.com/dac22bc7-c89a-41a1-9663-47afdbf17116%2FOpenSans-Regular.ttf?v=1611097905041");
-       url("https://cdn.glitch.com/dac22bc7-c89a-41a1-9663-47afdbf17116%2FOpenSans-Regular.ttf?v=1611097905041") format(ttf),
+  src: url("Open Sans.ttf");
 }
 
 @font-face {
   font-family: Open-Sans-Italic; 
-  src: url("https://cdn.glitch.com/dac22bc7-c89a-41a1-9663-47afdbf17116%2FOpenSans-Italic.ttf?v=1611097900865");
-       url("https://cdn.glitch.com/dac22bc7-c89a-41a1-9663-47afdbf17116%2FOpenSans-Italic.ttf?v=1611097900865") format(ttf),
+  src: url("Open Sans Italic.ttf");
 }
 
 @font-face {
   font-family: Open-Sans-Light; 
-  src: url("https://cdn.glitch.com/dac22bc7-c89a-41a1-9663-47afdbf17116%2FOpenSans-Light.ttf?v=1611111607933");
-       url("https://cdn.glitch.com/dac22bc7-c89a-41a1-9663-47afdbf17116%2FOpenSans-Light.ttf?v=1611111607933") format(ttf),
+  src: url("Open Sans Light.ttf");
 }
 
 @font-face {
-  font-family: Montserrat; 
-  src: url("https://cdn.glitch.com/dac22bc7-c89a-41a1-9663-47afdbf17116%2FMontserrat.zip?v=1610963257969");
-       url("https://cdn.glitch.com/dac22bc7-c89a-41a1-9663-47afdbf17116%2FMontserrat.zip?v=1610963257969") format(ttf),
+  font-family: Young-Serif; 
+  src: url("Young Serif.ttf");
 }
-
-@font-face {
-  font-family: Raleway; 
-  src: url("https://cdn.glitch.com/dac22bc7-c89a-41a1-9663-47afdbf17116%2FRaleway.zip?v=1610963260990");
-       url("https://cdn.glitch.com/dac22bc7-c89a-41a1-9663-47afdbf17116%2FRaleway.zip?v=1610963260990") format(ttf),
-}
-
-@font-face {
-  font-family: Mr-Dafoe; 
-  src: url("https://cdn.glitch.com/dac22bc7-c89a-41a1-9663-47afdbf17116%2FMrDafoe-Regular.ttf?v=1614304924408");
-       url("https://cdn.glitch.com/dac22bc7-c89a-41a1-9663-47afdbf17116%2FMrDafoe-Regular.ttf?v=1614304924408") format(ttf),
-}
-
  
 
 
@@ -62,15 +47,18 @@
   padding: 0;
 }
 
-
 body {
-  font-family: Bitter, Bitter-Italic;
+  font-family: Libertinus, Libertinus-Italic, Libertinus-Bold;
   margin: 2em;
   background-color: #e4f1ff;
 }
 
+a {
+  color: #577cbe;
+}
+
 h1 {
-  font-family: Mr-Dafoe;
+  font-family: Libertinus, Libertinus-Italic;
   font-size: 75px;
   font-style: normal;
   font-weight: 250;
@@ -82,12 +70,12 @@ h1 {
 
 h2 {
   font-size: 24px;
-  font-family: Bitter, Bitter-Italic;
+  font-family: Libertinus, Libertinus-Italic;
   line-height: 150%;
 }
 
 h3 {
-  font-family: Bitter-Light;
+  font-family: Libertinus, Libertinus-Italic;
   font-size: 24px;
   font-style: regular;
   color: #18b193;
@@ -96,15 +84,24 @@ h3 {
 
 h4 {
   font-size: 31px;
-  font-family: Bitter, Bitter-Italic;
+    font-family: Libertinus, Libertinus-Italic;
   line-height: 150%;
   text-align: center;
+  color: #496eb4;
+  font-style: regular;
 }
 
 h5 {
-  font-family: Bitter-Light;
+  font-family: Libertinus, Libertinus-Italic;
   font-size: 25px;
   font-style: regular;
+  padding-bottom: 10px;
+}
+
+.repeat {
+  background-image: url("repeat.png");
+  background-repeat: repeat;
+  background-color: #e4f1ff;
 }
 
 
@@ -132,7 +129,7 @@ h5 {
   text-align: center;
   padding: 14px 40px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .nav a:hover {
@@ -218,7 +215,7 @@ h5 {
 }
 
 .about {
-  font-family: Open Sans;
+  font-family: Open-Sans;
   font-size: 18px;
   background: #effaf8;
   padding: 20px 20px;
