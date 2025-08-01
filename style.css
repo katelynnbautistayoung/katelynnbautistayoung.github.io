@@ -229,6 +229,12 @@ h5 {
   line-height: 150%;
   font-family: Open-Sans;
   font-size: 16px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
 }
 
 .centercard {
@@ -240,6 +246,22 @@ h5 {
   line-height: 150%;
   word-spacing: 3px;
   font-size: 16px
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.centercard.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .about {
@@ -398,23 +420,3 @@ h5 {
 
 
 
-
-
-@keyframes fade {
-	0% {
-		opacity: 0;
-		transform: translate(0, 1rem);
-	}
-	100% {
-		opacity: 1;
-		transform: translate(0, 0);
-	}
-}
-
-.in-view {
-	animation: fade 1s 1s both;
-}
-
-.not-in-view {
-	opacity: 0;
-}
