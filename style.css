@@ -69,17 +69,17 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 30px;
   font-family: Libertinus, Libertinus-Italic;
   line-height: 150%;
 }
 
 h3 {
   font-family: Libertinus, Libertinus-Italic;
-  font-size: 24px;
+  font-size: 30px;
   font-style: regular;
-  color: #18b193;
-  padding: 10px;
+  color: black;
+  padding: 0px;
 }
 
 h4 {
@@ -179,6 +179,7 @@ h5 {
   }
 }
 
+
 @media screen and (max-width: 700px) {
   .row {
     flex-direction: column;
@@ -190,6 +191,30 @@ h5 {
   .navbar a {
     float: none;
     width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
   }
 }
 
@@ -208,7 +233,7 @@ h5 {
   padding: 20px 30px 20px 30px;
   text-align: center;
   background-color: white;
-  font-family: Bitter
+  font-family: Bitter;
   color: black;
   line-height: 150%;
   word-spacing: 3px;
@@ -217,10 +242,10 @@ h5 {
 .about {
   font-family: Open-Sans;
   font-size: 18px;
-  background: #effaf8;
+  background: #496eb4;
   padding: 20px 20px;
   text-align: left;
-  color: black;
+  color: white;
   line-height: 150%;
 }
 
