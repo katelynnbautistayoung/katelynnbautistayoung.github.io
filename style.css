@@ -78,6 +78,7 @@ h3 {
   font-family: Libertinus, Libertinus-Italic;
   font-size: 30px;
   font-style: regular;
+  line-height: 120%;
   color: black;
   padding: 0px;
 }
@@ -95,7 +96,8 @@ h5 {
   font-family: Libertinus, Libertinus-Italic;
   font-size: 25px;
   font-style: regular;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  text-align: left
 }
 
 .repeat {
