@@ -129,7 +129,7 @@ h5 {
   float: left;
   color: #496eb4;
   text-align: center;
-  padding: 14px 55px;
+  padding: 14px 46px;
   text-decoration: none;
   font-size: 22px;
 }
@@ -276,7 +276,7 @@ h5 {
 
 .abouttitle {
   flex: 45%;
-  text-align: left;
+  text-align: center;
   padding: 0px 10px 0px 10px;
 }
 
